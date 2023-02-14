@@ -1,0 +1,166 @@
+/****** Global Styles ******/
+
+body {
+    color: #5e5d5e;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.content-wrapper{
+    /*Becaused width has been stated on line10, all children will remain centered within this parent container*/
+    margin: 0 auto;
+    /*Overall width constraints of the site*/
+    width: 1200px;
+    /*Calculates amount (like width and height) of background element to add based off the size of children elements size*/
+    overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+    background: no-repeat url('../img/full-background.png') #F9EFEF;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+}
+header h1 {
+    float: left;
+    width: 300px;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    color: #7b7e54;
+    padding: 65px 0 65px 25px; 
+}
+nav {
+    float: right;
+    width: 800px;
+    text-align: right;
+    padding: 75px 25px 75px 0; 
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #727172;
+    font-size: 18px;
+    padding-left: 80px;
+}
+h2 {
+    width: 1000px;
+    color: #817f80;
+    clear: both;
+    font-family: "Lora", serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0px 20px 25px;
+}
+
+
+/****** About Styles ******/
+#about .content-wrapper{
+    padding: 80px 0px;
+
+}
+#about h2 {
+    font-size: 36px;
+    font-family: "Lora", serif;
+    padding: 0 50px;
+}
+#about p {
+    float: left;
+    /*Subtracts border and padding from width and height so p elements fit side by side within width restrictions*/
+    box-sizing: border-box; 
+    width: 600px;
+    padding: 0px 50px;
+    overflow: auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/****** Skill Styles ******/
+#skills {
+    text-align: center;
+    background: #F5F5F5;
+}
+#skills .content-wrapper {
+    padding: 115px 0;
+
+}
+#skills .skills-list {
+    float: left;
+    padding: 0 50px;
+    width: 300px;
+}
+#skills h2 {
+    font-size: 36px;
+    font-family: "Lora", serif;
+    padding-bottom: 40px;
+}
+#skills h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+}
+#skills p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+/****** Contact Styles ******/
+#contact {
+    background: #F9E9E9;
+}
+#contact .content-wrapper {
+    padding: 110px 0px;
+}
+#contact .contact-image {
+    width: 600px;
+    float: left;
+    
+}
+#contact #contact-img{
+    width: 400px;
+    height: 300px;
+    margin: 0 50px;
+    border: 15px solid #FFF;
+    box-sizing: border-box;
+}
+#contact .contact-info{
+    width: 600px;
+    float: left;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+#contact h2 {
+    font-size: 36px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    padding: 0px 0;
+}
+#contact h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+#contact #contact-email {
+    margin-bottom: 5px;
+} 
+#contact #contact-social {
+    margin: 20px 0 5px 0;
+}
+#contact #envelope {
+    padding-right: 10px;
+}
+#contact #email-address {
+    text-decoration: none;
+    color: #5E5D5E;
+}
+#contact ul {
+    padding: 0;
+    list-style: none;
+}
+#contact ul li {
+    display: inline;
+}
+#contact ul img {
+    margin-right: 40px;
+}
